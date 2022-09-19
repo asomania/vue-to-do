@@ -35,18 +35,21 @@
 
     <v-main>
       <HelloWorld />
+      <MyComp />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import MyComp from "./components/MyComp.vue";
 
 export default {
   name: "App",
 
   components: {
     HelloWorld,
+    MyComp,
   },
 
   data: () => ({
